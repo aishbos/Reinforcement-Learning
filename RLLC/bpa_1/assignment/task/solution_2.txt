@@ -1,0 +1,24 @@
+Task 2 - Value Iteration
+
+Answers:
+
+
+6) 	Rounds of value iteration for start state to become non-zero: 9
+    Why? Value iteration does not wait for full policy evaluation to update the values, hence in a sense a more approximate update. Therefore it takes more iterations for value iteration to make the start state value non-zero. However, in principle even value iteration will converge to an optimal policy for discounted finite MDPs.
+
+7) 	Which parameter to change: -n
+	Value of the changed parameter: 0.01695 
+
+8)	Parameter values producing optimal policy types:
+	    a) -n 0 -d 0.3
+	    b) -n 0.1 -d 0.3
+	    c) -n 0 -d 0.5
+	    d) -n 0.2 -d 0.9
+	    e) -n 0.9 -d 0.9
+
+9) 	Pros: 								Cons:
+		-									-
+		-									-
+		-									-
+		-									-
+

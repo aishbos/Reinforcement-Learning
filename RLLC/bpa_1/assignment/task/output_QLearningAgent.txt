@@ -1,0 +1,80 @@
+
+
+ Testing the QLearningAgent on the CliffGrid2 
+
+ 
+ q-values 
+ at (0, 0) for moving north : 5.846514 
+at (0, 0) for moving west : 6.014463 
+at (0, 0) for moving south : 7.186613 
+at (0, 0) for moving east : 5.813905 
+at (0, 1) for moving north : 5.506633 
+at (0, 1) for moving west : 6.430000 
+at (0, 1) for moving south : 5.057302 
+at (0, 1) for moving east : 5.536170 
+at (0, 2) for moving north : 5.633980 
+at (0, 2) for moving west : 5.316314 
+at (0, 2) for moving south : 4.872389 
+at (0, 2) for moving east : 6.384599 
+at (0, 3) for moving north : 5.814957 
+at (0, 3) for moving west : 5.683599 
+at (0, 3) for moving south : 5.332548 
+at (0, 3) for moving east : 7.499552 
+at (0, 4) for moving north : 7.378885 
+at (0, 4) for moving west : 6.960600 
+at (0, 4) for moving south : 8.599456 
+at (0, 4) for moving east : 7.498811 
+at (1, 0) for moving exit : 8.000000 
+at (1, 1) for moving north : 5.966366 
+at (1, 1) for moving west : -41.413696 
+at (1, 1) for moving south : -77.100412 
+at (1, 1) for moving east : 3.474344 
+at (1, 2) for moving north : 5.602737 
+at (1, 2) for moving west : 1.833485 
+at (1, 2) for moving south : -88.943957 
+at (1, 2) for moving east : 5.048366 
+at (1, 3) for moving north : 5.894499 
+at (1, 3) for moving west : 3.413667 
+at (1, 3) for moving south : -80.347832 
+at (1, 3) for moving east : -42.329466 
+at (1, 4) for moving exit : 10.000000 
+at (2, 0) for moving exit : 0.000000 
+at (2, 1) for moving exit : -100.000000 
+at (2, 2) for moving exit : -100.000000 
+at (2, 3) for moving exit : -100.000000 
+at (2, 4) for moving exit : 0.000000 
+values 
+ at (-1, -1) : 0.000000
+ at (0, 0) : 7.186613
+ at (0, 1) : 6.430000
+ at (0, 2) : 6.384599
+ at (0, 3) : 7.499552
+ at (0, 4) : 8.599456
+ at (1, 0) : 8.000000
+ at (1, 1) : 5.966366
+ at (1, 2) : 5.602737
+ at (1, 3) : 5.894499
+ at (1, 4) : 10.000000
+ at (2, 0) : 0.000000
+ at (2, 1) : -100.000000
+ at (2, 2) : -100.000000
+ at (2, 3) : -100.000000
+ at (2, 4) : 0.000000
+ 
+ policy 
+ at (-1, -1) move exit 
+at (0, 0) move south 
+at (0, 1) move west 
+at (0, 2) move east 
+at (0, 3) move east 
+at (0, 4) move south 
+at (1, 0) move exit 
+at (1, 1) move north 
+at (1, 2) move north 
+at (1, 3) move north 
+at (1, 4) move exit 
+at (2, 0) move exit 
+at (2, 1) move exit 
+at (2, 2) move exit 
+at (2, 3) move exit 
+at (2, 4) move exit 

@@ -1,0 +1,17 @@
+Task 3 - Q-Learning
+
+Answers:
+
+
+6) 	Training the Q-learning agent without noise:
+        a) Value at state (1, 5): 0.00
+        b) Optimal policy : no
+        c) Name of parameter: episodes (-k 500000) or epsilon and episodes (-e 0.8 -k 5000)
+
+7) 	Comparison of values for the start state:
+        1) Value of the start state after 300 episodes: 4.312488
+        2) Average returns from the start state: -13.459667422807277
+	  Why?- The value of the start state is the expected return by following the learnt policy after 300 episodes. The average returns includes the times when the agent explored (did random actions) as well as the times when it exploited (followed policy). While exploring, it might happen that the chosen action leads to cliff, hence causing a high negative return for that particular episode. Since the average is strongly influenced by these high negative returns, the average returns differs wildly from the Value of the state after 300 episodes.
+
+8)  Faster converging algorithm? Value Iteration
+
